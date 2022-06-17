@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/briefly-news-app/static/css/main.073c9b0a.css",
-    "main.js": "/briefly-news-app/static/js/main.0960c911.js",
+    "main.js": "/briefly-news-app/static/js/main.19bbcfa6.js",
     "static/js/787.a2d3872a.chunk.js": "/briefly-news-app/static/js/787.a2d3872a.chunk.js",
     "index.html": "/briefly-news-app/index.html",
     "main.073c9b0a.css.map": "/briefly-news-app/static/css/main.073c9b0a.css.map",
-    "main.0960c911.js.map": "/briefly-news-app/static/js/main.0960c911.js.map",
+    "main.19bbcfa6.js.map": "/briefly-news-app/static/js/main.19bbcfa6.js.map",
     "787.a2d3872a.chunk.js.map": "/briefly-news-app/static/js/787.a2d3872a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0960c911.js"
+    "static/js/main.19bbcfa6.js"
   ]
 }
