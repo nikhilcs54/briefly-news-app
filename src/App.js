@@ -4,7 +4,7 @@ import Nav from './Nav'
 import News from './News'
 import React, { Component } from 'react'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-     <BrowserRouter>
+     <HashRouter basename="/">
         <Nav/> 
         
         <Routes>
@@ -25,7 +25,7 @@ export default class App extends Component {
           <Route exact path="/sports" element={<News key="sports" pageSize={5} country="in" category="sports"/>}/>
           <Route exact path="/technology" element={<News key="technology" pageSize={5} country="in" category="technology"/>}/>
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </>
     )
   }
